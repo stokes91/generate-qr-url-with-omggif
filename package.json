@@ -1,0 +1,33 @@
+{
+  "name": "generate-qr-url-with-omggif",
+  "version": "1.0.0",
+  "description": "Generate Version 1 QR Codes using omggif - JavaScript implementation",
+  "main": "main.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node examples/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stokes91/generate-qr-url-with-omggif.git"
+  },
+  "keywords": [
+    "Data",
+    "Matrix",
+    "omggif",
+    "Code"
+  ],
+  "author": "Alexander Stokes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stokes91/generate-qr-url-with-omggif/issues"
+  },
+  "homepage": "https://github.com/stokes91/generate-qr-url-with-omggif#readme",
+  "dependencies": {
+    "omggif": "^1.0.10",
+    "rs-finite-field": "^2.0.0"
+  }
+}
